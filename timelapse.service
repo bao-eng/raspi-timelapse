@@ -1,0 +1,9 @@
+[Unit]
+Description=timelapse service
+
+[Service]
+Type=simple
+ExecStart=/home/pi/raspistill.sh
+
+[Install]
+WantedBy=multi-user.target
